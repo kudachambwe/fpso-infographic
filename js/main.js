@@ -384,19 +384,19 @@ $(document).ready(function() {
     var $allHotspots = $(".hotspots > li");
     activeHotSpotIndex = $allHotspots.index($activeHotspot);
 
-    if (activeHotSpotIndex == 0) {
-      console.log("First")
+    if (activeHotSpotIndex === 0) {
+      if (__debug) console.log("First");
       $(".modal-controls .previous").attr("disabled", "disabled");
     } else {
-      console.log("Not first")
+      if (__debug) console.log("Not first");
       $(".modal-controls .previous").removeAttr("disabled");
     }
 
-    if (activeHotSpotIndex == $allHotspots.length - 1) {
-      console.log("Last")
+    if (activeHotSpotIndex === $allHotspots.length - 1) {
+      if (__debug) console.log("Last");
       $(".modal-controls .next").attr("disabled", "disabled");
     } else {
-      console.log("Not last")
+      if (__debug) console.log("Not last");
       $(".modal-controls .next").removeAttr("disabled");
     }
   }
@@ -510,9 +510,9 @@ document.querySelector(".animation-substation").addEventListener("click", functi
     document.querySelector(".hotspot-4-1").classList.toggle("animate");
     document.querySelector(".hotspot-4-2").classList.toggle("animate");
     document.querySelector(".hotspot-4-3").classList.toggle("animate");
-    document.querySelector(".hotspot-4-4").classList.toggle("animate");
-    document.querySelector(".hotspot-4-5").classList.toggle("animate");
-    document.querySelector(".animation-substation .description").classList.toggle("animate");
+    //document.querySelector(".hotspot-4-4").classList.toggle("animate");
+    //document.querySelector(".hotspot-4-5").classList.toggle("animate");
+    //document.querySelector(".animation-substation .description").classList.toggle("animate");
 });
 
 });
