@@ -18,7 +18,7 @@ The file structure of the project is as folllows:
 ## Authors & Contributors
 
 * **Kudakwashe Chambwe** - *Developer* - [Github](https://github.com/kudachambwe)
-* **Andreas Kolsto** - *Developer* - [Github](https://github.com/andrebk)
+* **Andreas Bro Kolstø** - *Developer* - [Github](https://github.com/andrebk)
 * **Rita-Wei Fu** - *Supervisor, ABB*
 
 ## License
