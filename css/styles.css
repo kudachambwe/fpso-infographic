@@ -132,7 +132,7 @@ b {
 
 @media (max-width: 667px) {
     .infographic-header {
-        padding: 30px 15px 10px;
+        padding: 30px 15px 50px;
     }
 }
 
@@ -616,8 +616,8 @@ b {
 
     #hotspot-4-3, #hotspot-4-4, #hotspot-4-5, #hotspot-4-2, #hotspot-4-1 {
         display: block;
-        left: 154px;
-        top: 120px;
+        left: 709px;
+        top: 514px;
         transform: scale(0.01);
         /*TODO: add -webkit- and other variants of transition (transfrom too?)*/
         -o-transition: 0.4s;
