@@ -24,4 +24,4 @@ The file structure of the project is as folllows:
 ## License
 
 This project is licensed under the GNU GPLv3 License. However the projects belongs to ABB,
-so any requests should e made to them.
+so any inquiries should be made to them.
