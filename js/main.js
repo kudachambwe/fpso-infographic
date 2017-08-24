@@ -2,8 +2,8 @@
  * @author Kudakwashe Chambwe & Andreas Kolsto
  */
 
-
 const __debug = false;
+// __debug = true, to see log printout..
 
 $(document).ready(function() {
   var $infographicWrapper = $(".infographic-wrapper");
@@ -510,9 +510,6 @@ document.querySelector(".animation-substation").addEventListener("click", functi
     document.querySelector(".hotspot-4-1").classList.toggle("animate");
     document.querySelector(".hotspot-4-2").classList.toggle("animate");
     document.querySelector(".hotspot-4-3").classList.toggle("animate");
-    //document.querySelector(".hotspot-4-4").classList.toggle("animate");
-    //document.querySelector(".hotspot-4-5").classList.toggle("animate");
-    //document.querySelector(".animation-substation .description").classList.toggle("animate");
 });
 
 });

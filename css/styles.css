@@ -165,21 +165,6 @@ b {
     }
 }
 
-.nav-wrapper button {
-    height: 38px;
-    margin: 4px;
-    padding-left: 41px;
-    text-align: left;
-    background: transparent url(../img/icons/icon-zoom.png) left 9px no-repeat;
-    background-position-x: 14px;
-    border: 1px solid #bbb;
-    border-radius: 2px;
-    color: #333;
-    cursor: pointer;
-    font-size: 14px;
-    line-height: 1;
-    vertical-align: bottom;
-}
 
 @media (max-width: 420px) {
     .nav-wrapper button {
@@ -194,10 +179,7 @@ b {
     display: inline;
 }
 
-#zoom-toggle {
-    width: 38px;
-    background: transparent url(../img/icons/icon-zoom.png) center -21px no-repeat;
-}
+
 
 @media (max-width: 667px) {
     #zoom-toggle {
@@ -977,10 +959,6 @@ CSS Sandbox
  */
 
 
-.zoom-icon {
-    width: 38px;
-    background: transparent url(../img/icons/icon-zoom.png) center -21px no-repeat;
-}
 
 .zoomed  {
     background-position-y: -21px !important;
