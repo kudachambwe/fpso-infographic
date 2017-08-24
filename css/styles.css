@@ -448,8 +448,8 @@ b {
     }
 
     .animation-trigger.transparent::after {
-        left: -32px;
-        top: 36px;
+        left: -30px;
+        top: -10px;
         right: auto;
         bottom: auto;
     }
@@ -529,7 +529,7 @@ b {
         border-bottom: 3px solid #F5821F;
     }
     .hotspots>li.hotspot-1-1 {
-        left: 106px;
+        left: 235px;
         height: 58px;
         width: 116px;
         top: 32px;
@@ -570,15 +570,14 @@ b {
     .hotspots>li.hotspot-4-1 {
         left: 293px;
         top: 570px;
-        height: 40px;
-        width: 92px;
+        height: 29px;
+        width: 136px;
     }
     .hotspots>li.hotspot-4-2 {
-        /*TODO: Move this element so it is completely within section 4?*/
         left: -8px;
         top: 572px;
-        height: 39px;
-        width: 132px;
+        height: 29px;
+        width: 149px;
     }
     .hotspots>li.hotspot-4-3 {
         left: 23px;
@@ -599,10 +598,10 @@ b {
     }
     .animation-substation {
         position: absolute;
-        left: 812px;
-        top: 481px;
-        height: 117px;
-        width: 181px;
+        left: 811px;
+        top: 529px;
+        height: 73px;
+        width: 136px;
     }
 
     .hotspots > li p {
@@ -633,21 +632,21 @@ b {
     }
 
     #hotspot-4-1.animate {
-        left: 294px;
-        top: 170px;
+        left: 894px;
+        top: 494px;
         transform: scale(1);
         transition: 0.3s;
     }
 
     #hotspot-4-2.animate {
-        left: -8px;
-        top: 172px;
+        left: 950px;
+        top: 532px;
         transform: scale(1);
     }
 
     #hotspot-4-3.animate {
-        left: 44px;
-        top: 13px;
+        left: 982px;
+        top: 573px;
         transform: scale(1);
         transition: 0.5s;
     }
