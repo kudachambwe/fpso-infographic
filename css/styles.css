@@ -46,22 +46,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 
-/* ----- SASSY STUFF --------------------------------------------- */
-
-
-/* ----- Variables ----- */
-
-
-/* Colours */
-
-
-/* Media queries */
-
-
-/* ----- Mixins ----- */
-
-
-/* ----- STYLES -------------------------------------------------- */
 
 html {
     -webkit-text-size-adjust: 100%;
@@ -272,24 +256,7 @@ b {
         width: 1700px;
         height: 650px;
     }
-    .infographic .infographic-section.section2 {
-        left: 400px;
-        width: 397px;
-        height: 320px;
-        top: 200px;
-    }
-    .infographic .infographic-section.section3 {
-        left: 797px;
-        width: 540px;
-        height: 360px;
-        top: 150px;
-    }
-    .infographic .infographic-section.section4 {
-        left: 1337px;
-        width: 436px;
-        height: 250px;
-        top: 400px;
-    }
+
     .infographic .infographic-section .end {
         display: none;
     }
@@ -331,26 +298,8 @@ b {
         background-image: url(../img/mobile/onshore-01.png);
         background-position-y: -20vw;
     }
-    .infographic .infographic-section.section2 .hotspots {
-        margin-top: 30px;
-    }
-    .infographic .infographic-section.section3 .hotspots {
-        margin-bottom: 30px;
-    }
-    .infographic .infographic-section.section2 .image1 {
-        height: 85vw;
-        background-image: url(../img/mobile/offshore-01_no-logo.png);
-        background-position-y: -20vw;
-    }
-    .infographic .infographic-section.section4 .hotspots {
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-    .infographic .infographic-section.section4 .image1 {
-        height: 125vw;
-        background-image: url(../img/mobile/seabed-01_no-logo.png);
-        background-position-y: -40vw;
-    }
+
+
     .infographic .infographic-section .end {
         padding: 20px 15% 30px;
         color: #222;
@@ -547,10 +496,7 @@ b {
         left: -24px;
         top: 0px;
     }
-    .hotspots>li.hotspot-2-2 {
-        left: 260px;
-        top: 159px;
-    }
+
     .hotspots>li.hotspot-3-1 {
         left: 945px;
         top: 31px;
@@ -561,12 +507,7 @@ b {
         left: -24px;
         top: 0px;
     }
-    .hotspots>li.hotspot-3-2 {
-        left: 42px;
-        top: 126px;
-        width: 80px;
-        height: 24px;
-    }
+
     .hotspots>li.hotspot-4-1 {
         left: 293px;
         top: 570px;
@@ -584,18 +525,7 @@ b {
         top: 413px;
         width: 102px;
     }
-    .hotspots>li.hotspot-4-4 {
-        left: 136px;
-        top: 396px;
-        width: 99px;
-        height: 50px;
-    }
-    .hotspots>li.hotspot-4-5 {
-        left: 244px;
-        top: 396px;
-        width: 105px;
-        height: 57px;
-    }
+
     .animation-substation {
         position: absolute;
         left: 811px;
@@ -614,7 +544,7 @@ b {
         border-radius: 4px;
     }
 
-    #hotspot-4-3, #hotspot-4-4, #hotspot-4-5, #hotspot-4-2, #hotspot-4-1 {
+    #hotspot-4-3, #hotspot-4-2, #hotspot-4-1 {
         display: block;
         left: 709px;
         top: 514px;
@@ -626,7 +556,7 @@ b {
         transition: 0.4s;
     }
 
-    #hotspot-4-3, #hotspot-4-4, #hotspot-4-5 {
+    #hotspot-4-3 {
         width: unset;
         height: unset;
     }
@@ -651,19 +581,6 @@ b {
         transition: 0.5s;
     }
 
-    #hotspot-4-4.animate {
-        left: 166px;
-        top: -4px;
-        transform: scale(1);
-        transition: 0.6s;
-    }
-
-    #hotspot-4-5.animate {
-        left: 265px;
-        top: 10px;
-        transform: scale(1);
-        transition: 0.7s;
-    }
 
     .animation-trigger {
         min-width: 100%;
