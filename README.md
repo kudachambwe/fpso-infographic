@@ -5,7 +5,7 @@
 
 ## Structure
 
-The file structure of the project is as folllows:
+The file structure of the project is as follows:
 
 ### Top-level directory layout
     .
