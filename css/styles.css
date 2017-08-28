@@ -205,9 +205,8 @@ b {
     .infographic {
         position: relative;
         width: 1786px;
-        height: 670px;
+        height: 750px;
         background: transparent url(../img/fpso_large.png) 0 0 no-repeat;
-        background-size: 1800px 700px;
         -moz-transform-origin: 0 0;
         -ms-transform-origin: 0 0;
         -webkit-transform-origin: 0 0;
@@ -297,7 +296,7 @@ b {
         border: 1px solid #999;
         border-radius: 2px;
     }
-    .hotspots>li:after {
+    .hotspots>li .hotspot-trigger:after {
         position: absolute;
         top: 0;
         right: 0;
@@ -332,7 +331,7 @@ b {
         opacity: 1;
         padding-top: 1em;
     }
-    .hotspots>li.active:after {
+    .hotspots>li.active .hotspot-trigger:after {
         background-position: 50% -26px;
     }
 }
