@@ -1,7 +1,7 @@
 
 # FPSO Inforgraphic
 
-> This is an interactive infographic for ABB's FPSO Oil & Gas.
+> This is an interactive and responsive infographic for ABB's FPSO Oil & Gas.
 
 ## Structure
 
@@ -24,4 +24,4 @@ The file structure of the project is as follows:
 ## License
 
 This project is licensed under the GNU GPLv3 License. However this project belongs to ABB,
-so any inquiries should be made to them.
+and therefore any inquiries should be directed to them.
