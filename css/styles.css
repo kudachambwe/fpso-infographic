@@ -489,8 +489,8 @@ b {
     }
 
     .hotspots>li.hotspot-3-2 {
-        left: 354px;
-        top: 570px;
+        left: 370px;
+        top: 562px;
         width: 133px;
         height: 60px;
     }
@@ -499,8 +499,8 @@ b {
         top: 0px;
     }
     .hotspots>li.hotspot-3-3 {
-        left: 881px;
-        top: 570px;
+        left: 897px;
+        top: 562px;
         width: 133px;
         height: 60px;
     }
@@ -541,8 +541,8 @@ b {
 
     .animation-substation {
         position: absolute;
-        left: 644px;
-        top: 577px;
+        left: 657px;
+        top: 572px;
         height: 26px;
         width: 136px;
     }
@@ -559,7 +559,7 @@ b {
 
     #hotspot-4-3, #hotspot-4-2, #hotspot-4-1 {
         display: block;
-        left: 540px;
+        left: 554px;
         top: 565px;
         transform: scale(0.01);
         /*TODO: add -webkit- and other variants of transition (transfrom too?)*/
