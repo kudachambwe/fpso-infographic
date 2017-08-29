@@ -492,20 +492,11 @@ $(document).ready(function() {
 
   });
 
-  // Doesn't work :(
-  function setModalBodyMaxHeight() {
-    var viewportHeight = $(window).height();
-    var $modal = $(".modal");
-    var $modalBody = $modal.find(".modal-body");
-    var modalBodyTop = $modalBody.offset().top;
-    var modalBodyMaxHeight = viewportHeight - modalBodyTop;
 
-    $modalBody.css({
-      "max-height": modalBodyMaxHeight
-    });
-  }
-
-document.querySelector(".animation-substation").addEventListener("click", function() {
+  /**
+   * Listens to clicks on the exapandable animation substation, and adds "animate" class to hotspots.
+   */
+  document.querySelector(".animation-substation").addEventListener("click", function() {
     this.classList.toggle("open");
     document.querySelector(".hotspot-4-1").classList.toggle("animate");
     document.querySelector(".hotspot-4-2").classList.toggle("animate");
