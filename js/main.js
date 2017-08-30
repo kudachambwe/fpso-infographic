@@ -314,7 +314,7 @@ $(document).ready(function() {
   function makeSmall() {
 
     var viewportWidth = $(window).width();
-    var infographicWidth = 1786; /** Fixed value depending on background width size*/
+    var infographicWidth = 1300; /** Fixed value depending on background width size*/
     /** $infographic.width() returning incorrect number since jQuery upgrade */
     var scaleFactor = viewportWidth / infographicWidth;
 
