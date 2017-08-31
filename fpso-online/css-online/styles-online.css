@@ -73,6 +73,10 @@ b {
     font-weight: bold;
 }
 
+h2.mobile-only {
+    color: white;
+}
+
 .hide-text {
     position: absolute;
     height: 1px;
@@ -116,7 +120,7 @@ b {
 
 @media (max-width: 667px) {
     .infographic-header {
-        padding: 30px 15px 50px;
+        padding: 30px 15px 10px;
     }
 }
 
@@ -132,7 +136,7 @@ b {
     display: block;
     width: 88px;
     height: 33px;
-    background-image: url(../img/abb-logo-33px.svg);
+    background-image: url(http://www07.abb.com/cdn/img/abb-logo-33px.svg?1476109196);
     background-repeat: no-repeat;
     background-size: 88px 33px;
 }
@@ -171,7 +175,7 @@ b {
     margin: 4px;
     padding-left: 41px;
     text-align: left;
-    background: transparent url(../img/icons/icon-zoom.png) left 9px no-repeat;
+    background: transparent url(http://new.abb.com/images/librariesprovider94/subsea-infographic/icons/icon-zoom.png) left 9px no-repeat;
     background-position-x: 14px;
     border: 1px solid #bbb;
     border-radius: 2px;
@@ -210,7 +214,7 @@ b {
 
 #zoom-toggle {
     width: 38px;
-    background: transparent url(../img/icons/icon-zoom.png) center -21px no-repeat;
+    background: transparent url(http://edit.abb.com/images/librariesprovider94/fpso-oil-gas-infographic/icons/icon-zoom.png) center -21px no-repeat;
 }
 
 @media (min-width: 668px) {
@@ -229,7 +233,7 @@ b {
         position: relative;
         width: 1218px;
         height: 650px;
-        background: transparent url(../img/fpso_regular.png) 0 0 no-repeat;
+        background: transparent url(http://edit.abb.com/images/librariesprovider94/fpso-oil-gas-infographic/fpso_regular.png) 0 0 no-repeat;
         -moz-transform-origin: 0 0;
         -ms-transform-origin: 0 0;
         -webkit-transform-origin: 0 0;
@@ -327,7 +331,7 @@ b {
         width: 23px;
         height: 23px;
         margin: -6px -6px 0 0;
-        background: black url(../img/icons/icon-expand.png) 50% 4px no-repeat;
+        background: black url(http://edit.abb.com/images/librariesprovider94/fpso-oil-gas-infographic/icons/icon-expand.png) 50% 4px no-repeat;
         border-radius: 50%;
         content: "";
     }
@@ -421,7 +425,7 @@ b {
         width: 23px;
         height: 23px;
         margin: 0 -6px -6px 0;
-        background: black url(../img/icons/icon-expand.png) 50% 4px no-repeat;
+        background: black url(http://edit.abb.com/images/librariesprovider94/fpso-oil-gas-infographic/icons/icon-expand.png) 50% 4px no-repeat;
         border-radius: 50%;
         content: "";
     }
@@ -916,7 +920,7 @@ body:not(.modal-is-active) .modal {
 
 .button.close {
     padding-left: 25px;
-    background: transparent url(../img/icons/icon-close.png) 10px 50% no-repeat;
+    background: transparent url(http://edit.abb.com/images/librariesprovider94/fpso-oil-gas-infographic/icons/icon-close.png) 10px 50% no-repeat;
 }
 
 .button.more {
@@ -925,7 +929,7 @@ body:not(.modal-is-active) .modal {
     float: right;
     margin-bottom: 6px;
     padding: 10px 45px 10px 14px;
-    background: transparent url(../img/icons/icon-more.png) calc(100% - 10px) 50% no-repeat;
+    background: transparent url(http://edit.abb.com/images/librariesprovider94/fpso-oil-gas-infographic/icons/icon-more.png) calc(100% - 10px) 50% no-repeat;
 }
 
 @media (max-width: 667px) {
@@ -954,13 +958,13 @@ body:not(.modal-is-active) .modal {
 .button.previous {
     padding-left: 35px;
     text-align: right;
-    background: transparent url(../img/icons/icon-previous.png) 10px 50% no-repeat;
+    background: transparent url(http://edit.abb.com/images/librariesprovider94/fpso-oil-gas-infographic/icons/icon-previous.png) 10px 50% no-repeat;
 }
 
 .button.next {
     padding-right: 35px;
     text-align: left;
-    background: transparent url(../img/icons/icon-next.png) calc(100% - 10px) 50% no-repeat;
+    background: transparent url(http://edit.abb.com/images/librariesprovider94/fpso-oil-gas-infographic/icons/icon-next.png) calc(100% - 10px) 50% no-repeat;
 }
 
 .further-details {
@@ -982,7 +986,7 @@ body:not(.modal-is-active) .modal {
     right: 15px;
     bottom: 15px;
     padding: 12px 22px 12px 35px;
-    background: transparent url(../img/icons/icon-previous.png) 10px 50% no-repeat;
+    background: transparent url(http://edit.abb.com/images/librariesprovider94/fpso-oil-gas-infographic/icons/icon-previous.png) 10px 50% no-repeat;
 }
 
 .pdf-iframe {

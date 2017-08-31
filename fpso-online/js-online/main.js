@@ -316,6 +316,7 @@ $(document).ready(function() {
    */
   function makeSmall() {
 
+    console.log("Called");
 
     var viewportWidth = $(window).width();
     var infographicWidth = 1216; /** Fixed value depending on background width size*/
